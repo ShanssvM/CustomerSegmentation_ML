@@ -1,4 +1,4 @@
-<font size="5"> Customer Segmentation Using Machine Learning </font>
+## Customer Segmentation Using Machine Learning 
 
 Project Overview
 
