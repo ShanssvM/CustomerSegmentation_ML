@@ -1,13 +1,13 @@
 ## Customer Segmentation Using Machine Learning 
 
-###Project Overview
+### Project Overview
 
 This project focuses on customer segmentation using machine learning techniques to group customers based on their behavioral and demographic patterns.
 The goal is to help businesses understand customer groups, improve targeted marketing, and enable data-driven decision-making.
 
 Customer segmentation is an unsupervised learning problem, where the model discovers natural groupings in the data without predefined labels.
 
-###🎯 Business Objective
+### 🎯 Business Objective
 
 Identify distinct customer segments
 
@@ -17,7 +17,7 @@ Enable personalized marketing strategies
 
 Improve customer retention and engagement
 
-###📂 Project Structure
+### 📂 Project Structure
 CustomerSegmentation/
 │
 ├── CustomerSegmentation.ipynb   # Jupyter Notebook with full analysis
@@ -25,7 +25,7 @@ CustomerSegmentation/
 ├── images/                       # Plots and visualizations
 └── README.md                     # Project documentation
 
-###🧾 Dataset Description
+### 🧾 Dataset Description
 
 The dataset contains customer-related features such as:
 
@@ -39,7 +39,7 @@ Engagement metrics
 
 Note: Sensitive or personally identifiable information (PII) has been removed or anonymized.
 
-🛠️ Tools & Technologies Used
+### 🛠️ Tools & Technologies Used
 
 Python
 
@@ -53,8 +53,8 @@ Scikit-learn – Machine learning models
 
 Jupyter Notebook – Interactive analysis
 
-🔍 Step-by-Step Approach
-1️⃣ Data Loading & Exploration
+### 🔍 Step-by-Step Approach
+#### 1️⃣ Data Loading & Exploration
 
 Loaded dataset using Pandas
 
@@ -64,7 +64,7 @@ Performed exploratory data analysis (EDA)
 
 Visualized distributions and correlations
 
-2️⃣ Data Preprocessing
+#### 2️⃣ Data Preprocessing
 
 Handled missing values
 
@@ -74,7 +74,7 @@ Scaled numerical features using StandardScaler
 
 Scaling was necessary because clustering algorithms rely on distance calculations, and unscaled features can bias results.
 
-3️⃣ Choosing the Number of Clusters
+#### 3️⃣ Choosing the Number of Clusters
 
 The Elbow Method was used to determine the optimal number of clusters:
 
@@ -84,7 +84,7 @@ Identified the “elbow point” where improvement slows
 
 This helps balance model simplicity and performance.
 
-4️⃣ Model Building – K-Means Clustering
+#### 4️⃣ Model Building – K-Means Clustering
 
 Applied K-Means clustering
 
@@ -100,7 +100,7 @@ Works well for numerical, scaled data
 
 Provides clear cluster assignments
 
-5️⃣ Cluster Analysis
+#### 5️⃣ Cluster Analysis
 
 Analyzed feature averages per cluster
 
@@ -116,7 +116,7 @@ Price-sensitive customers
 
 Low-engagement customers
 
-6️⃣ Visualization
+#### 6️⃣ Visualization
 
 Visualized clusters using 2D plots
 
@@ -126,7 +126,7 @@ Used color-coding to distinguish clusters
 
 Visuals help stakeholders quickly understand segmentation results.
 
-📈 Key Insights
+#### 📈 Key Insights
 
 Customers can be grouped into distinct, meaningful segments
 
@@ -134,7 +134,7 @@ Each segment shows different spending and engagement behavior
 
 Segmentation enables personalized marketing and targeted strategies
 
-🧠 Business Value
+#### 🧠 Business Value
 
 Improves marketing ROI
 
@@ -144,7 +144,7 @@ Supports strategic decision-making
 
 Reduces churn by targeting at-risk customers
 
-⚠️ Limitations
+#### ⚠️ Limitations
 
 K-Means assumes spherical clusters
 
@@ -170,12 +170,12 @@ Add dashboard for business users
 
 Experiment with advanced clustering algorithms
 
-✅ Conclusion
+## ✅ Conclusion
 
 This project demonstrates how unsupervised machine learning can be used to understand customer behavior at scale.
 Customer segmentation is not just a technical exercise—it is a strategic business tool.
 
 👩‍💻 Author
 
-Shanthi Mariappan
+### Shanthi Mariappan
 AI & Data Enthusiast | Product & Program Manager
