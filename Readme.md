@@ -1,4 +1,4 @@
-Customer Segmentation Using Machine Learning
+** Customer Segmentation Using Machine Learning**
 
 Project Overview
 
