@@ -1,13 +1,13 @@
 ## Customer Segmentation Using Machine Learning 
 
-Project Overview
+###Project Overview
 
 This project focuses on customer segmentation using machine learning techniques to group customers based on their behavioral and demographic patterns.
 The goal is to help businesses understand customer groups, improve targeted marketing, and enable data-driven decision-making.
 
 Customer segmentation is an unsupervised learning problem, where the model discovers natural groupings in the data without predefined labels.
 
-🎯 Business Objective
+###🎯 Business Objective
 
 Identify distinct customer segments
 
@@ -17,7 +17,7 @@ Enable personalized marketing strategies
 
 Improve customer retention and engagement
 
-📂 Project Structure
+###📂 Project Structure
 CustomerSegmentation/
 │
 ├── CustomerSegmentation.ipynb   # Jupyter Notebook with full analysis
@@ -25,7 +25,7 @@ CustomerSegmentation/
 ├── images/                       # Plots and visualizations
 └── README.md                     # Project documentation
 
-🧾 Dataset Description
+###🧾 Dataset Description
 
 The dataset contains customer-related features such as:
 
